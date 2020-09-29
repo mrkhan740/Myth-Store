@@ -1,0 +1,186 @@
+<div class="col-4">
+                <img src="images/pm1.jpg">
+                <h4>Black Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8360; 6999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pm2.jpg">
+                <h4>Beige Formal Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8360; 6999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pm3.jpg">
+                <h4>Green Formal Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>&#8360; 6999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pm9.jpg">
+                <h4>Blue Formal Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8360; 6999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pm11.jpg">
+                <h4>Black Blazzer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8360; 6999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pm12.jpg">
+                <h4>Grey Suit</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8360; 6999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pm13.jpg">
+                <h4>Navy-Blue Blazzer</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>&#8360; 6999</p>
+            </div>
+            <div class="col-4">
+                <img src="images/pt1.jpg">
+                <h4>Grey Formal Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>&#8360; 4999</p>
+            </div>
+
+
+
+
+
+
+            <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/imgfront.jpg" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/imgback.jpg" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/imgfront2.jpg" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/imgclose.jpg" >
+                    </div>
+                  
+                </div>
+
+
+                /*---- single product page---*/
+
+.single-product{
+    margin-top: 80px;
+
+}
+.single-product .col-2 img{
+    padding: 0;
+    
+
+}
+.single-product .col-2{
+    padding: 20px;
+}
+.single-product h4{
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.single-product select{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+.single-product input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+input:focus{
+    outline: none;
+}
+
+.single-product .fa{
+    color: #ff523b;
+    margin-left: 10px;
+}
+.small-img-row{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+
+.col-2{
+    font-size: 30px;
+    line-height: 10px;
+    margin: 25px 0;
+}
+.shopbtn{
+    display: inline-block;
+    background: #d8d389;
+    color: white;
+    padding:5px 10px;
+    margin: 30px 0;
+    border-radius:30px ;
+    transition: background 0.5s;
+    
+}
+.shopbtn:hover{
+    background: rgb(74, 94, 35);

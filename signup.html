@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sign Up Page</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>Sign Up</h2>
+		</div>
+		<form class="form" id="form" action="signup.php" method="POST">
+			<div class="form-control">
+				<label>Username</label>
+				<input type="text" placeholder="XYZ" id="username" name="username">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label>email</label>
+				<input type="Email" placeholder="xyz@abc.com" id="email" name="email">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label>Password</label>
+				<input type="Password" placeholder="Password" id="password" name="password">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label>Check Password</label>
+				<input type="password" placeholder="Confirm Password" id="password2" name="password2">
+				<small>Error Message</small>
+			</div>
+			<button id="Submit" name="submit">Submit</button>
+		</form>
+	</div>
+</body>
+</html>
